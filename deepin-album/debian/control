@@ -1,0 +1,17 @@
+Source: deepin-album
+Section: admin
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends:
+ debhelper (>= 9),
+ cmake, pkg-config, qtdeclarative5-dev, libdtkdeclarative-dev, qtbase5-dev,libexif-dev, libqt5svg5-dev, qttools5-dev-tools, qttools5-dev, libstartup-notification0-dev, libfreeimage-dev, libudev-dev, libfontconfig1-dev, libglib2.0-dev, libxrender-dev, libdtkgui-dev, libdtkwidget-dev, libgio-qt-dev, libudisks2-qt5-dev
+Standards-Version: 3.9.8
+Homepage: http://www.deepin.org
+
+Package: deepin-album
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml-module-qt-labs-settings , qml-module-qt-labs-folderlistmodel
+Recommends: deepin-ocr
+Description: Simple description
+ A detailed description.
+
